@@ -7,5 +7,8 @@ public class Main {
         //kald makeSound-metoden
         dog.makeSound();
         cat.makeSound();
+
+        cat.eat("catfood");
+        dog.eat("dogfood");
     }
 }
